@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_side_a">Side_a</string>
+    <string name="title_activity_side_b">Side_b</string>
+    <string name="title_activity_frag_handler">Frag_handler</string>
+
+</resources>

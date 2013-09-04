@@ -1,0 +1,5 @@
+.diff files for older versions of GNU Make have been moved to
+the old-gnu/make/ directory on ftp.gnu.org, which may not be
+mirrored on mirror sites.
+
+- FSF staff

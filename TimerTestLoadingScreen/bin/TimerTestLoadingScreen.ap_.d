@@ -1,0 +1,24 @@
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/bin/TimerTestLoadingScreen.ap_ \
+ : /home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/drawable-hdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/drawable-xxhdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values/styles.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values/strings.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values/dimens.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values-sw720dp-land/dimens.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values-sw600dp/dimens.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/drawable-xhdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/menu/main.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/menu/fragment_handler.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/drawable-mdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values-v11/styles.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/values-v14/styles.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/layout/activity_main.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/layout/load_screen_2.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/layout/load_screen_3.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/layout/activity_fragment_handler.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/res/layout/load_screen_1.xml \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/bin/res/drawable-hdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/bin/res/drawable-xxhdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/bin/res/drawable-xhdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/bin/res/drawable-mdpi/ic_launcher.png \
+/home/beshto/workspace/Dropbox/TimerTestLoadingScreen/bin/AndroidManifest.xml \

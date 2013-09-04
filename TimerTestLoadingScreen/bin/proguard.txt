@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.lynas.timertestloadingscreen.FragmentHandlerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.lynas.timertestloadingscreen.MainActivity { <init>(...); }
+

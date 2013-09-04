@@ -1,0 +1,44 @@
+
+Prerequisite
+
+- Get last Merlin binary version
+http://www.dpml.net/merlin/distributions/3.2.4-bis/
+And unzip the file.
+
+
+Setup
+
+Set your env variable
+export JAVA_HOME to jdk folder
+export MERLIN_HOME to Merlin folder
+export OPENIM_HOME to OpenIM folder
+
+
+If you are behind a firewall (using http proxy) configure merlin
+$MERLIN_HOME/config/kernel.xml
+For example:
+
+<repository>
+<proxy>
+<host>proxy.dot.com</host>
+<port>8080</port>
+</proxy>
+...
+</repository>
+
+
+
+Run
+
+Use the script shell: openim.sh
+The script will automaticly download the most accurate libs (if required).
+
+
+Use SSL
+
+Go to keystore folder
+ # cd home/sockets/manager/conf/
+
+Use keytool to generate a keystore file (default password is set to "openim" in impl/conf/block.xml file)
+ # keytool -genkey -keyalg RSA -alias openimRSA -keystore keystore
+
