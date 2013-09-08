@@ -26,7 +26,7 @@ public class MainActivity extends SherlockFragmentActivity {
 		bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		
 		mTabsAdapter = new TabsAdapter(this, mViewPager);
-		mTabsAdapter.addTab(bar.newTab().setText("Fragment 1"), Fragment_1.class, null);
+		mTabsAdapter.addTab(bar.newTab().setText("Fragment 199"), Fragment_1.class, null);
 		mTabsAdapter.addTab(bar.newTab().setText("Fragment 2"), Fragment_2.class, null);
 		mTabsAdapter.addTab(bar.newTab().setText("Fragment 3"), Fragment_3.class, null);
 		mTabsAdapter.addTab(bar.newTab().setText("Fragment 4"), Fragment_4.class, null);

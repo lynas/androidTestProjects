@@ -18,6 +18,7 @@ public class MyPagerAdapter extends PagerAdapter {
         return 5;
     }
     public Object instantiateItem(ViewGroup collection, int position) {
+    	
         LayoutInflater inflater = (LayoutInflater) collection.getContext()
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         int resId = 0;
@@ -52,11 +53,13 @@ public class MyPagerAdapter extends PagerAdapter {
         return arg0 == ((View) arg1);
     }
 
-    //public boolean isViewFromObject(ViewGroup arg0, Object arg1) {
-      //  return arg0 == ((View) arg1);
-    //}
     @Override
     public Parcelable saveState() {
         return null;
+    }
+    
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return "Tab "+position;
     }
 }

@@ -6,9 +6,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
-import android.view.Menu;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
@@ -46,11 +45,16 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected android.app.Dialog onCreateDialog(int id) {
+		
 		Dialog dialog;
 		switch (id) {
 		case RESET_DIALOG:
 			dialog = new Dialog(this);
+			dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 			dialog.setContentView(R.layout.customdialoguelayout);
+			
+			
+			
 			MyPagerAdapter adapter = new MyPagerAdapter();
 			ViewPager myPager = (ViewPager) dialog.findViewById(R.id.myPager);
 			// if (myPager == null)
@@ -58,9 +62,11 @@ public class MainActivity extends Activity {
 			// else
 			// if (adapter.)
 			// Log.d("tag", "adapter null");
-
+			
+			
 			myPager.setAdapter(adapter);
-			myPager.setCurrentItem(2);
+			myPager.setCurrentItem(0);
+			
 			return dialog;
 		}
 
@@ -69,11 +75,6 @@ public class MainActivity extends Activity {
 	
 	
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
+
 
 }
