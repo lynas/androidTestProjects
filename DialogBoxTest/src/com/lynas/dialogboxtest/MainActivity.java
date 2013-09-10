@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.TabHost;
 
 public class MainActivity extends Activity {
 
@@ -45,36 +46,29 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected android.app.Dialog onCreateDialog(int id) {
-		
+
 		Dialog dialog;
 		switch (id) {
 		case RESET_DIALOG:
 			dialog = new Dialog(this);
 			dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 			dialog.setContentView(R.layout.customdialoguelayout);
-			
-			
-			
-			MyPagerAdapter adapter = new MyPagerAdapter();
+
+			MyPagerAdapter adapter = new MyPagerAdapter(this);
 			ViewPager myPager = (ViewPager) dialog.findViewById(R.id.myPager);
 			// if (myPager == null)
 			// Log.d("tag", "mypager null");
 			// else
 			// if (adapter.)
 			// Log.d("tag", "adapter null");
-			
-			
+
 			myPager.setAdapter(adapter);
 			myPager.setCurrentItem(0);
-			
+
 			return dialog;
 		}
 
 		return null;
 	};
-	
-	
-
-
 
 }

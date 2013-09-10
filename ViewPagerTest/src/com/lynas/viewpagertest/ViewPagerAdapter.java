@@ -1,24 +1,14 @@
 package com.lynas.viewpagertest;
 
-import java.util.Random;
-
 import android.content.Context;
-import android.graphics.Color;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
 public class ViewPagerAdapter extends PagerAdapter {
 
-	private int[] colors = {
-
-	Color.parseColor("#125463"), Color.parseColor("#225463"),
-			Color.parseColor("#325463"), Color.parseColor("#425463"),
-			Color.parseColor("#E25463"), };
-	private Random rnd;
 
 	@Override
 	public int getCount() {
@@ -43,7 +33,7 @@ public class ViewPagerAdapter extends PagerAdapter {
 
 		tv.setText("no" + position);
 
-		((ViewPager) container).addView(page, 0);
+		((ViewPager) container).addView(page);
 
 		return page;
 	}
