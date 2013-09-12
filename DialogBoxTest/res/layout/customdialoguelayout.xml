@@ -4,24 +4,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <!--
+         <com.devsmart.android.ui.HorizontalListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    -->
+
+    <ScrollView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </ScrollView>
+
     <android.support.v4.view.ViewPager
         android:id="@+id/myPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content" >
 
+        <!--
         <android.support.v4.view.PagerTabStrip
             android:id="@+id/myPagerTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
-            android:background="#E84455" >
-
-            <ListView
-                android:id="@+id/listView1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-            </ListView>
-        </android.support.v4.view.PagerTabStrip> 
+            android:background="#E84455" />
+        -->
     </android.support.v4.view.ViewPager>
 
 </LinearLayout>

@@ -64,14 +64,7 @@ public class MyPagerAdapter extends PagerAdapter implements
 		View view = inflater.inflate(resId, null);
 		((ViewPager) collection).addView(view);
 
-		String[] FRUITS = new String[] { "Apple", "Avocado", "Banana" };
 
-		ListView lv = (ListView) view.findViewById(R.id.listView1);
-
-		ArrayAdapter<String> adp = new ArrayAdapter<String>(context,
-				R.layout.eachlist, FRUITS);
-
-		lv.setAdapter(adp);
 
 		
 		
@@ -93,11 +86,11 @@ public class MyPagerAdapter extends PagerAdapter implements
 	public Parcelable saveState() {
 		return null;
 	}
-
+/*
 	@Override
 	public CharSequence getPageTitle(int position) {
 
-/*		
+		
  		String[] FRUITS = new String[] { "Apple", "Avocado", "Banana" };
 
 		ListView lv = (ListView) findViewById(R.id.listView1);
@@ -107,7 +100,7 @@ public class MyPagerAdapter extends PagerAdapter implements
 
 		lv.setAdapter(adp);
 		
-		*/
+		
 		myDrawable = context.getResources().getDrawable(R.drawable.ic_launcher);
 
 		SpannableStringBuilder sb = new SpannableStringBuilder(" "); // space added before text for convenience
@@ -119,7 +112,7 @@ public class MyPagerAdapter extends PagerAdapter implements
 
 		return sb;
 	}
-
+*/
 	@Override
 	public void onPageScrollStateChanged(int arg0) {
 		// TODO Auto-generated method stub
@@ -134,7 +127,7 @@ public class MyPagerAdapter extends PagerAdapter implements
 
 	@Override
 	public void onPageSelected(int arg0) {
-
+		
 	}
 
 }

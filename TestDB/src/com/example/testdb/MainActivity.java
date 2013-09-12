@@ -27,10 +27,9 @@ public class MainActivity extends Activity {
 
 			try {
 				DBConnection d = new DBConnection();
-				contacts.add("8801819277433");
-				contacts.add("8801339277433");
-				contacts.add("8801779579196");
-				contacts.add("8801555277433");
+				
+				contacts.add("8801729091088");
+				contacts.add("8801712781274");
 				String listInLine="";
 				for(int i=0; i<contacts.size();i++){
 					listInLine+=contacts.get(i).toString()+",";
@@ -38,7 +37,7 @@ public class MainActivity extends Activity {
 				listInLine = listInLine.substring(0, listInLine.length()-1);
 				//Log.d("Test", listInLine);
 				
-				Log.d("Test", d.getInfoFromDB(listInLine));
+				Log.d("Test", d.getInfoFromDB2(listInLine,"8801716885456"));
 			} catch (Exception ex) {
 
 				Log.i("FILEUPLOAD", "There was a problem uploading file");
