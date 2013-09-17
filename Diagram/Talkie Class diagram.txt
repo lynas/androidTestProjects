@@ -1,0 +1,2 @@
+The application starts with SplashActivity class which extends Activity class. onCreate method initializes the processber then it checks if the current user of the application has user date stored in 
+

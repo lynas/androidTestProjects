@@ -18,31 +18,35 @@
         android:text="Connect" />
 
     <Button
-        android:id="@+id/buttonSend"
+        android:id="@+id/buttonsend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="Send" />
-
-    <EditText
-        android:id="@+id/editTextSendMessage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonSend"
-        android:layout_alignLeft="@+id/buttonSend"
-        android:layout_alignRight="@+id/buttonSend"
-        android:ems="10"
-        android:hint="Write Something" />
+        android:text="spanable text send" />
 
     <TextView
-        android:id="@+id/textViewChatHistory"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editTextSendMessage"
-        android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/editTextSendMessage"
-        android:layout_below="@+id/button1" />
+        android:layout_above="@+id/editText1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/mychattext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonsend"
+        android:layout_alignLeft="@+id/buttonsend"
+        android:layout_alignRight="@+id/buttonsend"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
